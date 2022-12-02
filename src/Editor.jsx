@@ -178,8 +178,8 @@ export default class Editor extends Component {
                     this.props.onChange(currentJson);
                 }
             } catch (err) {
-                if(this.props.onError) {
-                    this.props.onError(err);
+                if (this.props.onError) {
+                    this.props.onError(err, this.jsonEditor.getText());
                 }
                 this.err = err;
             }

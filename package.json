@@ -1,5 +1,5 @@
 {
-  "name": "jsoneditor-react",
+  "name": "jsoneditor-react-with-onerror",
   "version": "3.1.2",
   "description": "React implementation of https://github.com/josdejong/jsoneditor",
   "main": "es",
